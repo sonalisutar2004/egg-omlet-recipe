@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+}
+.simple-container{
+    height: 320px;
+    width: 240px;
+    display: flex;
+}
+body{
+    background-color: aquamarine;
+    height: 230vh;
+   max-width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preparation-method{
+    background-color: hotpink;
+
+}
+.preparation-method li span{
+    text-size-adjust: bold;}
+.simple-container{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 250px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.table-process p{
+    border-bottom:1px solid gray ;
+    padding:5px  ;
+
+}
+.table-process  p span{
+    margin-right: 25px;
+}
